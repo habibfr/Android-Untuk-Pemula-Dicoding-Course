@@ -15,4 +15,11 @@
        android:layout_marginBottom="16sp"
        android:text="@string/move_activity"/>
 
+   <Button
+       android:id="@+id/btnPindahDenganData"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="16sp"
+       android:text="@string/move_with_data"/>
+
 </LinearLayout>
