@@ -16,6 +16,12 @@ class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
         val txtDescription: TextView = itemView.findViewById(R.id.txtItemDescription)
     }
 
+    private lateinit var onItemClickCallback: OnItemClickCallback
+
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
             LayoutInflater.from(parent.context).inflate(R.layout.item_row_hero, parent, false)
@@ -33,12 +39,17 @@ class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
         holder.txtName.text = name
         holder.txtDescription.text = description
 
-        holder.itemView.setOnClickListener() {
-            Toast.makeText(
-                holder.itemView.context,
-                "Kamu memilih " + listHero[holder.adapterPosition].name,
-                Toast.LENGTH_SHORT
-            ).show()
-        }
+//        holder.itemView.setOnClickListener() {
+//            Toast.makeText(
+//                holder.itemView.context,
+//                "Kamu memilih " + listHero[holder.adapterPosition].name,
+//                Toast.LENGTH_SHORT
+//            ).show()
+//        }
+        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listHero[holder.adapterPosition]) }
+    }
+
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Hero)
     }
 }
