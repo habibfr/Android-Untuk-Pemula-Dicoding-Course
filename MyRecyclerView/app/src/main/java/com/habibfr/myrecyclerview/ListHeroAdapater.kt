@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
@@ -31,5 +32,13 @@ class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
         holder.imgPhoto.setImageResource(photo)
         holder.txtName.text = name
         holder.txtDescription.text = description
+
+        holder.itemView.setOnClickListener() {
+            Toast.makeText(
+                holder.itemView.context,
+                "Kamu memilih " + listHero[holder.adapterPosition].name,
+                Toast.LENGTH_SHORT
+            ).show()
+        }
     }
 }
