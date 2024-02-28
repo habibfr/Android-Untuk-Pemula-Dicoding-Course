@@ -7,6 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
     RecyclerView.Adapter<ListHeroAdapater.ListViewHolder>() {
@@ -35,9 +36,13 @@ class ListHeroAdapater(private val listHero: ArrayList<Hero>) :
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, description, photo) = listHero[position]
 
-        holder.imgPhoto.setImageResource(photo)
+//        holder.imgPhoto.setImageResource(photo)
+
         holder.txtName.text = name
         holder.txtDescription.text = description
+        Glide.with(holder.itemView.context)
+            .load(photo)
+            .into(holder.imgPhoto);
 
 //        holder.itemView.setOnClickListener() {
 //            Toast.makeText(

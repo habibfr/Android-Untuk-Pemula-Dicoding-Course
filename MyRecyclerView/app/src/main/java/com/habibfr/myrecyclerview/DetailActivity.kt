@@ -2,8 +2,10 @@ package com.habibfr.myrecyclerview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
 
 class DetailActivity : AppCompatActivity() {
 
@@ -26,9 +28,11 @@ class DetailActivity : AppCompatActivity() {
         val data = intent.getParcelableExtra<Hero>("DATA")
         txtName.text = data?.name.toString()
         txtDescription.text = data?.description.toString()
-        if (data != null) {
-            imgHero.setImageResource(data.photo)
-        }
+        data?.photo?.let { Log.d("d", it) }
+
+        Glide.with(this@DetailActivity)
+            .load(data?.photo.toString())
+            .into(imgHero);
     }
 
     override fun onSupportNavigateUp(): Boolean {
