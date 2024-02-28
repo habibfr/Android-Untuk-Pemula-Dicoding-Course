@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvHero.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListHeroAdapater(list)
+        val listHeroAdapter = ListHeroAdapter(list)
         rvHero.adapter = listHeroAdapter
 
-        listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapater.OnItemClickCallback {
+        listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Hero) {
                 val intentToDetail = Intent(this@MainActivity, DetailActivity::class.java)
                 intentToDetail.putExtra("DATA", data)
