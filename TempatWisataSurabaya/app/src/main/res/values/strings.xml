@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TempatWisataSurabaya</string>
+
+    <string name="wisata_name">Nama Tempat Wisata</string>
+    <string name="description">Deskripsi Wisata</string>
+    <string name="about_name">Habib Fatkhul Rohman</string>
+    <string name="about_email">habibfr968@gmail.com</string>
+    <string name="title_about">About</string>
+    <string name="share_content">Share Detail Wisata</string>
+    <string-array name="data_name">
+        <item>Tugu Pahlawan</item>
+        <item>Atlantis Land</item>
+        <item>Hutan Bambu Keputih</item>
+        <item>Patung Budha 4 Rupa</item>
+        <item>Hotel Majapahit</item>
+        <item>Museum House of Sampoerna</item>
+        <item>Kampung Arab</item>
+        <item>Kebun Binatang Surabaya</item>
+        <item>Kelenteng Sanggar Agung</item>
+        <item>Ekowisata Mangrove</item>
+        <item>Museum 10 November</item>
+        <item>Patung Suro dan Boyo</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Tempat wisata di Surabaya yang gak boleh terlewat tentu saja Tugu Pahlawan. Monumen ini merupakan ikon dari Surabaya yang sangat populer. Tugu Pahlawan dikelilingi oleh tanaman hijau yang rindang, cocok untuk tempat bersantai setelah keliling Kota Surabaya. Tugu yang menjulang tinggi ini sudah berdiri sejak masa penjajahan. Jangan khawatir, kamu tidak akan dikenakan biaya jika mengunjungi tempat ini dikarenakan Tugu Pahlawan gratis untuk umum.</item>
+        <item>Surabaya dikenal dengan cuaca panasnya. Maka dari itu, mengunjungi taman wisata air mungkin jadi pilihan tepat untuk menyegarkan diri. Salah satu yang layak untuk dikunjungi adalah Atlantis Land. Taman wisata ini gak cuma menyediakan kolam renang dengan banyak perosotan panjang. Atlantis Land juga memiliki banyak wahana hingga atraksi yang siap bikin kamu terhibur.</item>
+        <item>Buat kamu yang senang berfoto ria dengan pemandangan alam, Hutan Bambu Keputih bisa jadi salah satu pilihan. Awalnya lahan ini hanya dijadikan sebagai tempat pembuangan sampah, yang kemudian disulap menjadi hutan bambu dengan pemandangan indah bak di Jepang. Dengan banyak spot cantik dan menawan, membawa kamera adalah hal wajib jika datang ke sini. Kamu juga bisa menemukan pohon-pohon sakura di Hutan Bambu Keputih.</item>
+        <item>Enggak perlu jauh-jauh ke Thailand untuk melihat patung Budha. Cukup melipir ke kawasan Pantai Ria Kenjeran, di sana terdapat tempat wisata religi berupa patung Budha yang unik. Patung ini memiliki empat rupa dengan delapan tangan. Banyak yang bilang kalau patung Budha yang ada di Surabaya ini mirip dengan patung Budha Thao Maha Phrom di Bangkok, Thailand. Selain dijadikan tempat ibadah, banyak juga wisatawan yang datang ke sini untuk foto-foto.</item>
+        <item>Kamu bisa ke sini tidak hanya untuk menginap, tetapi juga untuk tur sejarah karena  juga membuka tur untuk wisatawan umum bertajuk Heritage Hotel Tour. Hotel yang dulunya bernama Hotel Yamato ini menyimpan banyak koleksi bernilai sejarah bagi hotel dan Kota Surabaya. Saat mengikuti tur ini, kamu bakal dibawa berkeliling hotel sambil dijelaskan sejarah yang pernah terjadi di ruangan-runagan hotel tersebut. Harga tiket untuk mengikuti tur hotel ini mulai dari Rp 100.000.</item>
+        <item>Surabaya juga dikenal memiliki tempat wisata berupa museum. Salah satunya yang wajib dikunjungi adalah Museum House of Sampoerna. Museum kretek yang beralamat di Taman Sampoerna 6 ini awalnya merupakan tempat pertama produksi rokok Sampoerna. Di sini kamu bisa mengenal sejarah kretek di Indonesia. Mulai dari mengenal jenis-jenis cengkeh, pemantik rokok, dan tentu saja bisa melihat proses pembuatan rokok. Museum ini juga menawarkan kepada pengunjung keliling Surabaya gratis dengan menggunakan sebuah bus. Museum ini juga memiliki kafe dan tempat penjualan suvenir di lantai dua. Tentu saja museum ini juga cukup Instagramable untuk dijadikan spot foto. Siapkan kamera, ya!</item>
+        <item>Keberagaman Indonesia tercermin dari banyaknya suku dan budaya yang dimiliki. Terdapat beberapa kampung di Surabaya yang dibagi berdasarkan etnisnya, salah satunya adalah Kampung Arab. Kampung ini dihuni oleh penduduknya yang mayoritas berasal dari Arab. Kampung Arab menjadi salah satu kampung yang dijadikan tempat wisata di Surabaya dan mendapat perhatian dari banyak wisatawan. Salah satu alasan utamanya adalah karena bisa dijadikan tujuan wisata religi. Selain bisa mengenal budaya Arab yang masih kental, kamu juga bisa berburu suvenir mulai dari pakaian, minyak wangi, hingga peralatan ibadah yang dijual di kampung yang terletak di kawasan Ampel tersebut.</item>
+        <item>Tempat wisata di Surabaya yang selalu ramai dan diminati adalah kebun binatang. Lokasinya yang terletak di pusat kota membuat Kebun Binatang Surabaya selalu ramai setiap harinya. Kebun binatang ini jadi salah satu yang tertua di Indonesia, lho. Hanya dengan merogoh kocek Rp 15.000, kamu sudah bisa melihat aneka ragam satwa yang dimiliki kebun binatang ini. Eits, jangan berkunjung di tanggal merah ya, karena Kebun Binatang Surabaya buka setiap hari kecuali tanggal merah.</item>
+        <item>Berlokasi di kawasan Pantai Ria Kenjeran menjadikan Kelenteng Sanggar Agung memiliki daya tarik tersendiri. Di sini berdiri banyak patung-patung seperti Dewi Kwan Im yang merupakan ikon dari kelenteng ini, patung Sha Nan dan Tong Nu serta patung naga yang meliuk. Kelenteng ini cocok dijadikan tempat wisata religi di Surabaya. Jika ingin lebih mendapatkan suasana sakral, kamu bisa datang saat perayaan Imlek karena kelenteng ini rama dikunjungi orang untuk beribadah maupun wisatawan lokal maupun asing.</item>
+        <item>Selain ke taman wisata air, untuk mendapat kesegaran di tengah cuaca Surabaya yang terik adalah mengunjungi daerah hijau. Ekowisata Mangrove ini bisa jadi pilihan tepat karena tempatnya yang bagus, bersih, serta murah. Selain bisa menghirup udara segar, kamu juga bisa menyusuri hutan mangrove di atas jembatan kayu. Pastinya tempat ini juga cocok untuk dijadikan spot hunting foto. Ada juga kolam pemancingan untuk keluarga yang sangat seru untuk dicoba.</item>
+        <item>Kalau kamu ingin mengetahui secara detail cerita tentang perjuangan masyarakat Surabaya saat melawan penjajah pada peristiwa 10 November 1945, museum ini adalah tempat yang tepat. Sebab, museum ini merupakan gudangnya dari cerita dan bukti sejarah perjuangan para pahlawan tersebut. Lokasi Museum 10 November ini tak jauh dari Tugu Pahlawan, masih sama-sama di Jalan Pahlawan. Di sini kamu bisa melihat-lihat foto dan lukisan dari situasi zaman perang. Ada juga benda koleksi dari bukti perjuangan Bung Tomo dan peralatan perang arek-arek Suroboyo. Lumayan, berwisata tapi edukasinya juga dapat.</item>
+        <item>Selain Tugu Pahlawan, Surabaya juga memiliki patung yang jadi ikon kota yakni Patung Suro dan Boyo. Patung ini memiliki cerita bagaimana Kota Pahlawan bisa dinamakan menjadi Surabaya. Tak afdol rasanya kalau ke Surabaya tapi enggak foto-foto berlatar patung hiu dan buaya ini. Ada beberapa titik untuk mengabadikan foto berlatar patung Suro dan Boyo. Salah satu spot yang terbaik adalah dari Taman Skateboard.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/tugu_pahlawan</item>
+        <item>@drawable/atlantis_land</item>
+        <item>@drawable/bambu</item>
+        <item>@drawable/buda</item>
+        <item>@drawable/hotel_majapahit</item>
+        <item>@drawable/house_sampoerna</item>
+        <item>@drawable/kampung_arab</item>
+        <item>@drawable/kebun_sby</item>
+        <item>@drawable/kelenteng_sangar</item>
+        <item>@drawable/mangrove</item>
+        <item>@drawable/museum_nov</item>
+        <item>@drawable/patung_surabaya</item>
+    </integer-array>
+</resources>
